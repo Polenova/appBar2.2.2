@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">appBar</string>
+    <string name="title_note">Записная книжка</string>
+    <string name="title_settings">Settings</string>
+    <string name="toast_txt">Отркыть записную книжку</string>
+    <string name="app_name_note">Записная книжка</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="edit_note">Записи</string>
+    <string name="toast_save">Данные сохранены</string>
+</resources>
