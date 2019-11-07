@@ -18,7 +18,7 @@ public class NotesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_notes);
         initViews();
         getDateFromSharedPref();
     }
@@ -39,7 +39,7 @@ public class NotesActivity extends AppCompatActivity {
                 SharedPreferences.Editor myEditor = myNoteSharedPref.edit();
                 myEditor.putString(NOTE_TEXT, noteTxt);
                 myEditor.apply();
-                Toast.makeText(NotesActivity.this, getString(R.string.toast_txt), Toast.LENGTH_LONG).show();
+                Toast.makeText(NotesActivity.this, getString(R.string.toast_save), Toast.LENGTH_LONG).show();
             }
         });
     }
