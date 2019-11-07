@@ -1,10 +1,83 @@
 <resources>
-    <string name="app_name">appBar</string>
-    <string name="title_note">Записная книжка</string>
+    <string name="app_name">appBar hw2.2.2</string>
+
+    <string name="title_note">Записная книжка hw2.2.1</string>
     <string name="title_settings">Settings</string>
     <string name="toast_txt">Отркыть записную книжку</string>
     <string name="app_name_note">Записная книжка</string>
     <string name="btn_save">Сохранить</string>
     <string name="edit_note">Записи</string>
     <string name="toast_save">Данные сохранены</string>
+
+    <string name="title_calendar">Календарь задач hw2.1.3</string>
+    <string name="btn_start">Дата-время старта задачи: </string>
+    <string name="btn_end">Дата-время окончания задачи: </string>
+    <string name="txt_start_end">Дата-время старта задачи: %1$s \nДата-время окончания задачи: %2$s</string>
+    <string name="exc">ошибка</string>
+    <string name="ok">OK</string>
+
+    <string name="title_address">Адресс hw2.1.2</string>
+    <string name="show_address">показать адрес</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+
+    <string name="title_transfer_money">Перевод денег hw2.1.1</string>
+    <string name="edit_summa">введите сумму</string>
+    <string name="edit_info">Информация об оплате</string>
+    <string name="check_adress">перевод по адресу</string>
+    <string name="check_phone">перевод по номеру телефона</string>
+    <string name="check_card">перевод по номеру карты</string>
+    <string name="text">сумма %1$s р. переведена на %2$s</string>
+
+    <string name="title_program_health">Программа здоровье hw1.3.1</string>
+    <string name="program_name">Комплексная система мониторинга здоровья</string>
+    <string name="text_name">Имя</string>
+    <string name="text_fname">Отчество</string>
+    <string name="text_surname">Фамилия</string>
+    <string name="text_age">Возраст</string>
+    <string name="button_press">Давление</string>
+    <string name="text_press">Индивидуальные показатели здоровья</string>
+    <string name="text_hpress">Верхнее давление</string>
+    <string name="text_lpress">Нижние давление</string>
+    <string name="text_pulse">Пульс</string>
+    <string name="text_date">Дата</string>
+    <string name="text_tahi">Тахикардия</string>
+    <string name="text_weight">Вес</string>
+    <string name="text_steps">Количество шагов</string>
+    <string name="button_save">Сохранить</string>
+    <string name="text_health">Жизненные показатели здоровья</string>
+    <string name="button_health">Здоровье</string>
+    <string name="exception">не верный формат ввода</string>
+
+    <string name="title_random_image">Случайная картинка hw1.2.2</string>
+    <string name="button_next">Далее</string>
+    <string name="button_back">Назад</string>
+    <string name="txt_http">http://myfile.org/%1$s</string>
+
+    <string name="title_send_mail">Подписка hw1.2.1</string>
+    <string name="nameUser">Имя пользователя</string>
+    <string name="passwordUser">Пароль</string>
+    <string name="mailUser">Электронная почта</string>
+    <string name="OK">OK</string>
+    <string name="info">%1$s оформил(а) подписку на электронную почту %2$s</string>
+    <string name="Clear">Очистить</string>
+    <string name="ClearTxt">Нет данных</string>
 </resources>

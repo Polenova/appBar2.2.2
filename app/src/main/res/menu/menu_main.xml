@@ -14,4 +14,40 @@
         android:orderInCategory="100"
         android:title="@string/title_note"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_calendar"
+        android:orderInCategory="100"
+        android:title="@string/title_calendar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_address"
+        android:orderInCategory="100"
+        android:title="@string/title_address"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_transfer_money"
+        android:orderInCategory="100"
+        android:title="@string/title_transfer_money"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_program_health"
+        android:orderInCategory="100"
+        android:title="@string/title_program_health"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_random_image"
+        android:orderInCategory="100"
+        android:title="@string/title_random_image"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_send_mail"
+        android:orderInCategory="100"
+        android:title="@string/title_send_mail"
+        app:showAsAction="never" />
 </menu>

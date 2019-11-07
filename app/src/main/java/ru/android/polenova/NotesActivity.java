@@ -16,19 +16,19 @@ public class NotesActivity extends AppCompatActivity {
     private static String NOTE_TEXT = "note_text";
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notes);
         initViews();
         getDateFromSharedPref();
     }
 
-    private void getDateFromSharedPref(){
+    private void getDateFromSharedPref() {
         String noteTxt = myNoteSharedPref.getString(NOTE_TEXT, "");
         mInputNote.setText(noteTxt);
     }
 
-    public void initViews(){
+    public void initViews() {
         mInputNote = findViewById(R.id.inputNote);
         Button mBtnSaveNote = findViewById(R.id.btnSaveNote);
         myNoteSharedPref = getSharedPreferences("myNote", MODE_PRIVATE);

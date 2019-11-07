@@ -7,11 +7,13 @@
     android:orientation="vertical"
     android:padding="50dp"
     tools:context=".NotesActivity">
+
     <EditText
         android:id="@+id/inputNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/edit_note" />
+
     <Button
         android:id="@+id/btnSaveNote"
         android:layout_width="match_parent"
